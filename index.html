@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href='https://fonts.googleapis.com/css?family=Cormorant SC' rel='stylesheet'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+  <link rel="stylesheet" href="css.css" />
+  <script src="main.js"></script>
+  </head>
+  <body class = "content">
+  
+  <div class="topnav">
+    <a style="font-size:3vw" class="active" href="#home">Home</a>
+    <a style="font-size:3vw" href="#about">About</a>
+    <a style="font-size:3vw" href="#Education">Education</a>
+    <a style="font-size:3vw" href="#contact">Contact</a>
+    <a style="font-size:3vw" href="#skills">Skills</a>
+  </div>
+
+  <br>
+<div id = "home" class = "img">
+  <img src="avatar-modified.png" alt="Avatar" style="width:300px">
+</div>
+<br>
+<div class = "about">
+<p  style= "text-align:center;font-family: Times New Roman, Times, serif; font-size:300%;" class="text-6xl font-semibold">Hello I'm Fatemeh Balandeh</p>
+<h3> Junior Web Developer</h3>
+<div  id = "about" class="about">
+<h2 style="color: #880826;">About Me and Academic Integrity</h2>
+<p>I'm a student taking the computer programming (CPP) program I have taken 10 courses
+so far which include: </p>
+<ul style="list-style-type:square; font-family: 'Times New Roman', Times, serif; color: #880826;">
+  <li>IPC</li>
+  <li>ULI</li>
+  <li>COM</li>
+  <li>APS</li>
+  <li>OOP</li>
+  <li>DBS</li>
+  <li>WEB</li>
+  <li>DCF</li>
+  <li>FLM</li>
+</ul>
+<h3 style="color: #880826;">Basic Information</h3>
+<p style ="font-size: 25px">Name: Fatemeh Balandeh</p><br>
+<p style ="font-size: 25px">Current Date: 12/4/2022</p><br>
+<p style ="font-size: 25px">Course: WEB222</p><br>
+<p style ="font-size: 25px">Section: ZEE</p><br>
+<p style ="font-size: 25px">Professor:  Mohammad Shamas</p><br>
+<div>
+  <br>
+<strong style="font-family: 'Times New Roman', Times, serif;">Honesty Statement: <br>
+  I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this assessment has been copied manually or electronically from any other source (including web sites) except for the information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also declare that no part of this assignment has been distributed to other students.
+  </strong>
+</div>
+</div>
+<br>
+<div id = "Education" class = "education">
+  <h1>Education</h1>
+  <p>Seneca College of Applied Arts and Technology, Computer Programming, Toronto, ON –
+    Currently Enrolled Expected in 12/2023
+  <a target="_blank"  href="CV (2).pdf" download>"Resume"</a> link.</p>
+</div>
+<br>
+<div id = "contact" class = "Contact">
+  <h2 style= "text-align:center;">Get In Touch</h2>
+  <form method = "post" action = "https://httpbin.org/post" onsubmit="return FormCheck()">
+    <div><label>Name* </label><input type="text" required></div>
+    <br>
+    <div><label>Email Address*</label><input type="email" required></div>
+    <br>
+    <div><label>Street Address* </label><input type="text" required></div>
+    <br>
+    <div><label>City*</label><input id = "city" type="text" required></div>
+    <br>
+    <div>
+        <label>Province* </label><input list = "province" type = "text" >
+        <datalist id = "province">
+            <option value = "Alberta">
+            <option value = "British Columbia">
+            <option value = "Manitoba">
+            <option value = "New Brunswick">
+            <option value = "Newfoundland and Labrador">
+            <option value = "Northwest Territories">
+            <option value = "Nova Scotia">
+            <option value = "Nunavut">
+            <option value = "Ontario">
+            <option value = "Prince Edward Island">
+            <option value = "Quebec">
+            <option value = "Saskatchewan">
+            <option value = "Yukon">
+        </datalist>
+    </div>
+    <br>
+    <div><label>Postal Code*</label><input id = "postal_code" type="text" required></div>
+    <br>
+    <div id = "div1">
+        <label>What this is about *</label><br>
+        <input type = "radio" id = "job" value = "Job Offer"><label>job_ffer</label><br>
+        <input type = "radio" id = "sch" value = "School"><label>school</label><br>
+        <input onclick = "AboutCheck()" type = "radio" id = "oth" value = "0"><label>other</label><br>
+    </div>
+    <br>
+    <div><label>Message*</label></div>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+    <div>
+        <input type = "reset">
+        <input type = "submit" value = "send" onclick = "return FormCheck()">
+    </div>
+    <div>
+        <span id = "errors"></span>
+    </div>
+</form>
+</div>
+
+</div>
+<div id = "skills">
+<h3 style = "color:  #e2216a;">Skills</h3>
+  <ul class="a">
+    <h3 style="color:  #f56c8c;">Programming Languages</h3>
+    <li style ="font-size: 25px">C</li>
+    <li style ="font-size: 25px">C++</li>
+    <li style ="font-size: 25px">Python</li>
+    <li style ="font-size: 25px">Java Script</li>
+  </ul>
+</div>
+</body>
+</html>

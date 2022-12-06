@@ -1,0 +1,109 @@
+body {
+	background: #faeee7;
+	background-size: 100px 80px;
+  }
+  .content {
+	max-width: 900px;
+	margin: auto;
+  }
+	body {
+	  margin: 0;
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.topnav {
+	  overflow: hidden;
+	  background-color: #e2216a;
+	}
+	
+	.topnav a {
+	  float: left;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+	
+	.topnav a:hover {
+	  background-color: #fddee5;
+	  color: black;
+	}
+	
+	.topnav a.active {
+	  background-color: #f77e9a;
+	  color: white;
+	}
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border: 8px dotted #fa709a;
+		border-radius: 9999px;
+	  }
+  p{
+	display:  inline;
+  }
+  h3 {
+	font-family: "Sofia", sans-serif;
+	font-size: 30px;
+	text-shadow: 3px 3px 3px #ababab;
+  }
+  ::selection {
+	color: #fa709a;
+	background: #fddee5;
+  }
+  .Contact{
+	font-family: 'Cormorant SC';font-size: 22px;
+  }
+  input[type=text] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #e2216a;
+  }
+  input[type=email] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #e2216a;
+  }
+  .about{
+	font-family: "Sofia", sans-serif;
+	font-size: 30px;
+  }
+  .education {
+	border: 2px solid black;
+	outline: #e2216a solid 10px;
+	margin: auto;  
+	padding: 20px;
+	text-align: center;
+  }
+  .education.div {
+	border: 1px solid gray;
+	padding: 8px;
+  }
+  
+  .education.h1 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #4CAF50;
+  }
+  
+  .education.p {
+	text-indent: 50px;
+	text-align: justify;
+	letter-spacing: 3px;
+  }
+  
+  .education.a {
+	text-decoration: none;
+	color: #008CBA;
+  }
+  ul.a {
+	list-style-type: circle;
+  }
